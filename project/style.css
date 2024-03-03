@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ebebeb;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 15px;
+  margin: auto;
+}
+.header-area {
+  background-color: #fff;
+}
+div.container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+ul.menuList li a {
+  text-decoration: none;
+}
+ul.menuList li a:last-child {
+  color: rgb(111, 111, 111);
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.link-button {
+  background-color: #e6d8ff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+}
+
+button.preview-btn {
+  padding: 10px 25px;
+  background: #fff;
+  border: 1px solid #975dff;
+  border-radius: 5px;
+  color: #975dff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+section.hero-area {
+  display: flex;
+  gap: 30px;
+  height: 600px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+section.mobile-img {
+  flex-basis: 50%;
+  background-color: #fff;
+}
+
+section.right-area {
+  flex-basis: 50%;
+}
+
+section.mobile-img img {
+  width: 100%;
+}
+
+h3.section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-top-area p {
+  font-size: 14px;
+  color: #282828;
+  margin-bottom: 20px;
+}
+
+button.add-link-btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.link-title1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.github label {
+  font-size: 14px;
+}
+
+.github select {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.link-title2 {
+  display: flex;
+  justify-content: space-between;
+}
+.link-github {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-github input {
+  padding: 10px;
+}
+.link-youtube {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.link-youtube input {
+  padding: 10px;
+}
+
+.youtube-opotion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.youtube-opotion select {
+  padding: 10px;
+}
+
+.youtube-link-area {
+  margin-top: 30px;
+}
+
+.github-link {
+  margin-top: 20px;
+}
